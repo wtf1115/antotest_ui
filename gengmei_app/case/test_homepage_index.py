@@ -48,8 +48,8 @@ class Testbuild(Testtodolist):
         raw_data = json.loads(end_raw_data)
         device_id = raw_data['device']['device_id']
         device_type = raw_data['device']['device_type']
-        app_session_id = raw_data['app_session_id']
-        app_serial_id = raw_data['app']['serial_id']
+        app_session_id = raw_data['app_session_id']     # 2019.11.27号增加
+        app_serial_id = raw_data['app']['serial_id']    # 2019.11.27号增加
         android_device_id = raw_data['device']['android_device_id']
         params = raw_data['params']
         print("device_opened: %s" % end_date_device_opened)
@@ -67,11 +67,12 @@ class Testbuild(Testtodolist):
             pass
         else:
             self.log.error("params不存在！")
-        if app_session_id:
+
+        if app_session_id:       # 2019.11.27号增加
             pass
         else:
             self.log.error("app_session_id不存在！")
-        if app_serial_id:
+        if app_serial_id:       # 2019.11.27号增加
             pass
         else:
             self.log.error("app_serial_id不存在！")
