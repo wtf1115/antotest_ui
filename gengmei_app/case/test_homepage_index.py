@@ -27,7 +27,7 @@ class Testbuild(Testtodolist):
         testbuild.click_alert()
         testbuild.click_bns()
         time.sleep(10)
-        self.driver.background_app(5)
+        self.driver.background_app(5)   # 退出后台5秒 ，再次进入app
         time.sleep(10)
 
         # 首页埋点
@@ -70,11 +70,19 @@ class Testbuild(Testtodolist):
             canshu.dev_id)
         result = canshu.mysql_test.query(sql_is_open_push)
         end_date_is_open_push = result[0]['create_time']
+        end_raw_data = result[0]['raw_data']
+        raw_data = json.loads(end_raw_data)
+        params_type = raw_data['params']['type']
         print("is_open_push: %s" % end_date_is_open_push)
         if begin_date > end_date_is_open_push:
             self.log.error("is_open_push埋点异常")
         else:
             self.log.info("is_open_push埋点正常")
+        # 判断 params_type 存在
+        if params_type:
+            pass
+        else:
+            self.log.error("android_device_id不存在！")
 
         sql_urban_geographical_location = "select * from maidian_history_data where device_id ='{}' and action = 'urban_geographical_location' order by create_time desc".format(
             canshu.dev_id)
