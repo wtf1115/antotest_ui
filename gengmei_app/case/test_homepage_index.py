@@ -48,6 +48,8 @@ class Testbuild(Testtodolist):
         raw_data = json.loads(end_raw_data)
         device_id = raw_data['device']['device_id']
         device_type = raw_data['device']['device_type']
+        app_session_id = raw_data['app_session_id']
+        app_serial_id = raw_data['app']['serial_id']
         android_device_id = raw_data['device']['android_device_id']
         params = raw_data['params']
         print("device_opened: %s" % end_date_device_opened)
@@ -65,6 +67,14 @@ class Testbuild(Testtodolist):
             pass
         else:
             self.log.error("params不存在！")
+        if app_session_id:
+            pass
+        else:
+            self.log.error("app_session_id不存在！")
+        if app_serial_id:
+            pass
+        else:
+            self.log.error("app_serial_id不存在！")
 
         sql_is_open_push = "select * from maidian_history_data where device_id ='{}' and action = 'is_open_push' order by create_time desc".format(
             canshu.dev_id)
