@@ -41,9 +41,9 @@ class Testbuild(Testtodolist):
         app_session_id = raw_data['app_session_id']
         print("page_view: %s" % end_page_view)
         if begin_date > end_page_view:
-            self.log.error("page_view埋点异常")
+            self.log.error("on_app_session_over埋点异常")
         else:
-            self.log.info("page_view埋点正常")
+            self.log.info("on_app_session_over埋点正常")
 
         if app_serial_id:
             pass

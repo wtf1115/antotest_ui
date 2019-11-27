@@ -1,0 +1,9 @@
+[2019-11-27 16:03:54,442]-ERROR: test_01__ page_view埋点异常 line44
+[2019-11-27 16:05:52,515]-ERROR: test_01__ on_app_session_over埋点异常 line44
+[2019-11-27 16:18:37,813]-ERROR: test_01__ on_app_session_over埋点异常 line44
+[2019-11-27 16:22:16,701]-ERROR: test_01__ home_open埋点异常 line39
+[2019-11-27 16:22:16,958]-ERROR: test_01__ device_opened埋点异常 line57
+[2019-11-27 16:22:16,961]-ERROR: test_01__ app_serial_id不存在！ line78
+[2019-11-27 16:22:17,118]-ERROR: test_01__ is_open_push埋点异常 line89
+[2019-11-27 16:22:17,220]-ERROR: test_01__ urban_geographical_location埋点异常 line104
+[2019-11-27 16:28:07,607]-ERROR: test_01__ page_view埋点异常 line47
