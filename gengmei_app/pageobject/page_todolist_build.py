@@ -16,6 +16,9 @@ class TodolistBuild(BasePage):
     gengmei_scanagain = (By.ID,"com.wanmeizhensuo.zhensuo:id/face_result_tv_once_again")
     report_share = (By.ID, "com.wanmeizhensuo.zhensuo:id/face_result_iv_share")
     gengmei_skin = (By.ID, "com.wanmeizhensuo.zhensuo:id/face_result_tv_skin")
+
+
+
     def click_alert(self):
         """
         关闭首页广告业
@@ -26,21 +29,21 @@ class TodolistBuild(BasePage):
             self.driver.find_element_by_id("com.wanmeizhensuo.zhensuo:id/dialog_home_img_cancel").click()
         except Exception as e:
             print("找不到元素 %s,%d" % (e, 1))
-        finally:
-            try:
-                time.sleep(3)
-                ele = '//android.widget.ImageView[@index="0"]'
-                self.driver.find_element_by_xpath(ele).click()
-            except Exception as e:
-                print("找不到元素 %s,%d" % (e, 2))
-            finally:
-                try:
-                    time.sleep(3)
-                    self.driver.find_elements_by_class_name("android.widget.ImageView")[0].click()
-                except Exception as e:
-                    print("找不到元素 %s,%d" % (e, 3))
-                finally:
-                    print("继续下一步")
+        # finally:
+        #     try:
+        #         time.sleep(3)
+        #         ele = '//android.widget.ImageView[@index="0"]'
+        #         self.driver.find_element_by_xpath(ele).click()
+        #     except Exception as e:
+        #         print("找不到元素 %s,%d" % (e, 2))
+        #     finally:
+        #         try:
+        #             time.sleep(3)
+        #             self.driver.find_elements_by_class_name("android.widget.ImageView")[0].click()
+        #         except Exception as e:
+        #             print("找不到元素 %s,%d" % (e, 3))
+        #         finally:
+        #             print("继续下一步")
 
         pass
 

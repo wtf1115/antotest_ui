@@ -30,6 +30,16 @@ class Testbuild(Testtodolist):
         self.driver.background_app(5)
         time.sleep(10)
 
+        sql_device_opened = "select * from maidian_history_data where device_id ='{}' and action = 'device_opened' order by create_time desc".format(
+            canshu.dev_id)
+        result_device_opened = canshu.mysql_test.query(sql_device_opened)
+        end_device_opened = result_device_opened[0]['create_time']
+        print("end_device_opened: %s" % end_device_opened)
+        if begin_date > end_device_opened:
+            self.log.error("device_opened埋点异常")
+        else:
+            self.log.info("device_opened埋点正常")
+
         sql_page_view = "select * from maidian_history_data where device_id ='{}' and action = 'on_app_session_over' order by create_time desc".format(
             canshu.dev_id)
         result = canshu.mysql_test.query(sql_page_view)
@@ -39,7 +49,7 @@ class Testbuild(Testtodolist):
         app_serial_id = raw_data['app']['serial_id']
         params_duration = raw_data['params']['duration']
         app_session_id = raw_data['app_session_id']
-        print("page_view: %s" % end_page_view)
+        print("on_app_session_over: %s" % end_page_view)
         if begin_date > end_page_view:
             self.log.error("on_app_session_over埋点异常")
         else:
