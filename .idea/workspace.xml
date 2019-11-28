@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a63c3bf9-3fe4-4668-ad66-99a564358674" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gengmei_app/case/test_homepage_close.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gengmei_app/case/test_homepage_over.py" beforeDir="false" afterPath="$PROJECT_DIR$/gengmei_app/case/test_homepage_over.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gengmei_app/logs/2019_11_27.log" beforeDir="false" afterPath="$PROJECT_DIR$/gengmei_app/logs/2019_11_27.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gengmei_app/pageobject/page_todolist_build.py" beforeDir="false" afterPath="$PROJECT_DIR$/gengmei_app/pageobject/page_todolist_build.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,22 +67,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gengmei_app/Test_runner.py">
+        <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="394">
+              <caret line="42" column="113" selection-start-line="42" selection-start-column="100" selection-end-line="42" selection-end-column="113" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_index.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_close.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="318">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -116,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_over.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+            <state relative-caret-position="294">
+              <caret line="32" column="113" selection-start-line="32" selection-start-column="100" selection-end-line="32" selection-end-column="113" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -141,6 +139,7 @@
     <findStrings>
       <find>on_app_session_over</find>
       <find>is_open_push</find>
+      <find>device_opened</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,6 +153,7 @@
         <option value="$PROJECT_DIR$/gengmei_app/common/dbMysql.py" />
         <option value="$PROJECT_DIR$/gengmei_app/pageobject/page_todolist_build.py" />
         <option value="$PROJECT_DIR$/gengmei_app/case/test_homepage_over.py" />
+        <option value="$PROJECT_DIR$/gengmei_app/case/test_homepage_close.py" />
       </list>
     </option>
   </component>
@@ -220,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gengmei_app/case" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -232,6 +232,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gengmei_app/case" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gengmei_app/app" />
     </key>
@@ -331,7 +334,7 @@
       <updated>1574413268353</updated>
       <workItem from="1574413272463" duration="814000" />
       <workItem from="1574414322750" duration="2036000" />
-      <workItem from="1574662310117" duration="10307000" />
+      <workItem from="1574662310117" duration="10676000" />
     </task>
     <servers />
   </component>
@@ -368,18 +371,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13157000" />
+    <option name="totallyTimeSpent" value="13526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2180937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2180937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4919708" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4919708" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5019305" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,7 +391,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22651222" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22627737" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -538,10 +541,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_index.py">
+    <entry file="file://$PROJECT_DIR$/gengmei_app/pageobject/page_todolist_build.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="216">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_over.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="32" column="113" selection-start-line="32" selection-start-column="100" selection-end-line="32" selection-end-column="113" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -558,20 +571,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gengmei_app/pageobject/page_todolist_build.py">
+    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="394">
+          <caret line="42" column="113" selection-start-line="42" selection-start-column="100" selection-end-line="42" selection-end-column="113" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_over.py">
+    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_close.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+        <state relative-caret-position="318">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
