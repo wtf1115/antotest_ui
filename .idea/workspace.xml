@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a63c3bf9-3fe4-4668-ad66-99a564358674" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/gengmei_app/case/test_homepage_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/gengmei_app/case/test_homepage_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gengmei_app/logs/2019_12_02.log" beforeDir="false" afterPath="$PROJECT_DIR$/gengmei_app/logs/2019_12_02.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,18 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="42" column="113" selection-start-line="42" selection-start-column="100" selection-end-line="42" selection-end-column="113" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_search.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,10 +62,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gengmei_app/page/basetestcase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_meigou_doctor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+            <state relative-caret-position="223">
+              <caret line="51" column="65" lean-forward="true" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -87,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_meigou_hospital.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
+            <state relative-caret-position="403">
               <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -96,11 +97,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-166">
+              <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_meigou_post.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            <state relative-caret-position="595">
+              <caret line="51" column="66" lean-forward="true" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -109,22 +122,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_bns.py">
+        <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_meigou_search_hot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_over.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="42" column="115" selection-start-line="42" selection-start-column="96" selection-end-line="42" selection-end-column="115" />
+            <state relative-caret-position="403">
+              <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -165,10 +166,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1850" />
-    <option name="y" value="34" />
-    <option name="width" value="1617" />
-    <option name="height" value="943" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -259,23 +259,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_meigou_post.py">
-    <configuration name="Unittests in test_meigou_content.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test_homepage_index.py">
+    <configuration name="Unittests in basetestcase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gengmei_app/case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gengmei_app/page" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/gengmei_app/case/test_meigou_content.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/gengmei_app/page/basetestcase.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_meigou_diary.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_homepage_index.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,7 +286,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/gengmei_app/case/test_meigou_diary.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/gengmei_app/case/test_homepage_index.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -320,7 +320,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_meigou_post.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_meigou_search_hot.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="AutoTestUi" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,24 +331,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/gengmei_app/case/test_meigou_post.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/gengmei_app/case/test_meigou_search_hot.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in test_meigou_content.py" />
-      <item itemvalue="Python tests.Unittests in test_meigou_diary.py" />
       <item itemvalue="Python tests.Unittests in test_meigou_doctor.py" />
       <item itemvalue="Python tests.Unittests in test_meigou_hospital.py" />
-      <item itemvalue="Python tests.Unittests in test_meigou_post.py" />
+      <item itemvalue="Python tests.Unittests in test_meigou_search_hot.py" />
+      <item itemvalue="Python tests.Unittests in basetestcase.py" />
+      <item itemvalue="Python tests.Unittests in test_homepage_index.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_meigou_post.py" />
+        <item itemvalue="Python tests.Unittests in test_homepage_index.py" />
         <item itemvalue="Python tests.Unittests in test_meigou_hospital.py" />
         <item itemvalue="Python tests.Unittests in test_meigou_doctor.py" />
-        <item itemvalue="Python tests.Unittests in test_meigou_diary.py" />
-        <item itemvalue="Python tests.Unittests in test_meigou_content.py" />
+        <item itemvalue="Python tests.Unittests in basetestcase.py" />
+        <item itemvalue="Python tests.Unittests in test_meigou_search_hot.py" />
       </list>
     </recent_temporary>
   </component>
@@ -364,55 +364,55 @@
       <updated>1574413268353</updated>
       <workItem from="1574413272463" duration="814000" />
       <workItem from="1574414322750" duration="2036000" />
-      <workItem from="1574662310117" duration="15230000" />
+      <workItem from="1574662310117" duration="17923000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_homepage_index_py - 2019.12.02 at 08h 14m 16s.xml">
-      <configuration name="Unittests in test_homepage_index.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_homepage_over_py - 2019.12.02 at 08h 18m 30s.xml">
-      <configuration name="Unittests in test_homepage_over.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_homepage_search_py - 2019.12.02 at 08h 22m 47s.xml">
-      <configuration name="Unittests in test_homepage_search.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_meigou_py - 2019.12.02 at 08h 24m 45s.xml">
-      <configuration name="Unittests in test_meigou.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_meigou_content_py - 2019.12.02 at 08h 27m 10s.xml">
-      <configuration name="Unittests in test_meigou_content.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_meigou_diary_py - 2019.12.02 at 08h 29m 19s.xml">
-      <configuration name="Unittests in test_meigou_diary.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_meigou_doctor_py - 2019.12.02 at 08h 30m 59s.xml">
-      <configuration name="Unittests in test_meigou_doctor.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_meigou_doctor_py - 2019.12.02 at 08h 32m 38s.xml">
-      <configuration name="Unittests in test_meigou_doctor.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_meigou_hospital_py - 2019.12.02 at 08h 35m 00s.xml">
+    <history-entry file="Unittests_in_test_meigou_hospital_py - 2019.12.02 at 08h 40m 52s.xml">
       <configuration name="Unittests in test_meigou_hospital.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_meigou_post_py - 2019.12.02 at 08h 36m 11s.xml">
-      <configuration name="Unittests in test_meigou_post.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_meigou_hospital_py - 2019.12.02 at 08h 42m 42s.xml">
+      <configuration name="Unittests in test_meigou_hospital.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_meigou_doctor_py - 2019.12.02 at 08h 44m 29s.xml">
+      <configuration name="Unittests in test_meigou_doctor.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_basetestcase_py - 2019.12.02 at 08h 45m 43s.xml">
+      <configuration name="Unittests in basetestcase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_meigou_doctor_py - 2019.12.02 at 08h 47m 20s.xml">
+      <configuration name="Unittests in test_meigou_doctor.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_meigou_hospital_py - 2019.12.02 at 08h 50m 17s.xml">
+      <configuration name="Unittests in test_meigou_hospital.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_meigou_hospital_py - 2019.12.02 at 08h 51m 19s.xml">
+      <configuration name="Unittests in test_meigou_hospital.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_meigou_hospital_py - 2019.12.02 at 08h 51m 38s.xml">
+      <configuration name="Unittests in test_meigou_hospital.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_homepage_index_py - 2019.12.02 at 08h 52m 15s.xml">
+      <configuration name="Unittests in test_homepage_index.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_homepage_index_py - 2019.12.02 at 08h 54m 14s.xml">
+      <configuration name="Unittests in test_homepage_index.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18080000" />
+    <option name="totallyTimeSpent" value="20773000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1850" y="34" width="1617" height="943" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16571428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21082391" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3172738" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22773723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5019305" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,7 +421,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22627737" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22561692" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -437,9 +437,11 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_meigou_content_py.coverage" NAME="Unittests in test_meigou_content.py Coverage Results" MODIFIED="1575246337690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
     <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_homepage_over_py.coverage" NAME="Unittests in test_homepage_over.py Coverage Results" MODIFIED="1575245854500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
-    <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_homepage_index_py.coverage" NAME="Unittests in test_homepage_index.py Coverage Results" MODIFIED="1575245595036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
+    <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_homepage_index_py.coverage" NAME="Unittests in test_homepage_index.py Coverage Results" MODIFIED="1575247992698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
+    <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_meigou_search_hot_py.coverage" NAME="Unittests in test_meigou_search_hot.py Coverage Results" MODIFIED="1575247067288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
+    <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_basetestcase_py.coverage" NAME="Unittests in basetestcase.py Coverage Results" MODIFIED="1575247542947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/page" />
     <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_homepage_search_py.coverage" NAME="Unittests in test_homepage_search.py Coverage Results" MODIFIED="1575246068602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
-    <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_meigou_hospital_py.coverage" NAME="Unittests in test_meigou_hospital.py Coverage Results" MODIFIED="1575246809923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
+    <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_meigou_hospital_py.coverage" NAME="Unittests in test_meigou_hospital.py Coverage Results" MODIFIED="1575247879428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
     <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_meigou_post_py.coverage" NAME="Unittests in test_meigou_post.py Coverage Results" MODIFIED="1575246973185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
     <SUITE FILE_PATH="coverage/AutoTestUi$pytest_in_test_homepage_over_py.coverage" NAME="pytest in test_homepage_over.py Coverage Results" MODIFIED="1574846076599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
     <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_homepage_bns_py.coverage" NAME="Unittests in test_homepage_bns.py Coverage Results" MODIFIED="1575245293382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
@@ -447,19 +449,10 @@
     <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_homepage_close_py.coverage" NAME="Unittests in test_homepage_close.py Coverage Results" MODIFIED="1575245430767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
     <SUITE FILE_PATH="coverage/AutoTestUi$dbMysql.coverage" NAME="dbMysql Coverage Results" MODIFIED="1574842632450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/common" />
     <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_meigou_py.coverage" NAME="Unittests in test_meigou.py Coverage Results" MODIFIED="1575246220378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
-    <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_meigou_doctor_py.coverage" NAME="Unittests in test_meigou_doctor.py Coverage Results" MODIFIED="1575246661329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
+    <SUITE FILE_PATH="coverage/AutoTestUi$Unittests_in_test_meigou_doctor_py.coverage" NAME="Unittests in test_meigou_doctor.py Coverage Results" MODIFIED="1575247549236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gengmei_app/case" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jmeter.log" />
-    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_meigou_search_hot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gengmei_app/case_ob/test_meigou_content.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -514,16 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gengmei_app/page/basetestcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gengmei_app/page/canshu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -555,16 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="42" column="115" selection-start-line="42" selection-start-column="96" selection-end-line="42" selection-end-column="115" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="42" column="113" selection-start-line="42" selection-start-column="100" selection-end-line="42" selection-end-column="113" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -621,19 +594,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_meigou_doctor.py">
+    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_meigou_post.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        <state relative-caret-position="595">
+          <caret line="51" column="66" lean-forward="true" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_meigou_search_hot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gengmei_app/page/basetestcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_meigou_hospital.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
+        <state relative-caret-position="403">
           <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -641,10 +634,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_meigou_post.py">
+    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_homepage_index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="-166">
+          <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gengmei_app/case/test_meigou_doctor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="51" column="65" lean-forward="true" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

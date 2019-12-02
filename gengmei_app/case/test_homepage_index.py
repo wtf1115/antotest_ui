@@ -72,7 +72,9 @@ class Testbuild(Testtodolist):
             pass
         else:
             self.log.error("app_session_id不存在！")
-        if app_serial_id:       # 2019.11.27号增加
+        print(app_serial_id)
+        print(type(app_serial_id))
+        if app_serial_id >= 0 and app_serial_id < 101:       # 2019.11.27号增加
             pass
         else:
             self.log.error("app_serial_id不存在！")
