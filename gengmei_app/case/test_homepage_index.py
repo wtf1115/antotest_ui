@@ -68,7 +68,7 @@ class Testbuild(Testtodolist):
         else:
             self.log.error("params不存在！")
 
-        if app_session_id:       # 2019.11.27号增加
+        if app_session_id:    # 2019.11.27号增加
             pass
         else:
             self.log.error("app_session_id不存在！")
@@ -93,7 +93,7 @@ class Testbuild(Testtodolist):
         if params_type:
             pass
         else:
-            self.log.error("android_device_id不存在！")
+            self.log.error("params_type不存在！")
 
         sql_urban_geographical_location = "select * from maidian_history_data where device_id ='{}' and action = 'urban_geographical_location' order by create_time desc".format(
             canshu.dev_id)
