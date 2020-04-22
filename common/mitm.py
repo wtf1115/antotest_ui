@@ -47,27 +47,4 @@ def mitm_query(**kwargs):
     # 删掉 maidian
     redis_gm.delete('maidian')
     return filter_result
-# BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-# port = '8899'
-# try:
-#
-#     os.popen('brew install redis')
-#     os.popen('brew services start redis')
-#     os.popen('pip3 install mitmproxy')
-# except:
-#     pass
-#
-#
-# def openmitm():
-#     os.popen(f'mitmdump -s {os.path.join(BASE_DIR, "common", "maidianRedis.py")} --listen-port={port}')
-#
-#
-# def closemitm():
-#     time.sleep(5)
-#     os.system("for i in ` lsof -i:8899|awk '{print $2}'`; do kill -9  $i; done;")
-#
-#
-# if __name__ == '__main__':
-#     openmitm()
-#
-#     closemitm()
+

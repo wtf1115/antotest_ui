@@ -108,7 +108,7 @@ class Mdaddon:
         '''需要再添加'''
         self.host_list = ['backend.igengmei.com',
                           'backend.paas-test.env',
-                          'backend.pre.igengmei.com',
+                          'backend-pre.igengmei.com',
                           'backend.paas-week.env',
                           'xcx-week.igengmei.com',
                           'm.paas.env',
