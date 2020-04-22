@@ -1,4 +1,4 @@
-from gengmei_app.common.dbMysql import GMMysql
+from common.dbMysql import GMMysql
 
 dev_id = "863308030651130"
 dev_type = "android"

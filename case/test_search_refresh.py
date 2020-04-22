@@ -3,11 +3,11 @@ import datetime
 import time
 import json
 
-from gengmei_app.page.basetestcase import Testtodolist
-from gengmei_app.page import canshu
-from gengmei_app.pageobject.page_todolist_build import TodolistBuild
+from page.basetestcase import Testtodolist
+from page import canshu
+from pageobject.page_todolist_build import TodolistBuild
 
-from gengmei_app.common.Log import Log
+from common.Log import Log
 
 
 class Testbuild3(Testtodolist):

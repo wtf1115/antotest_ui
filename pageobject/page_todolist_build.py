@@ -1,5 +1,5 @@
 from appium import webdriver
-from gengmei_app.pageobject.basepage import BasePage
+from pageobject.basepage import BasePage
 from selenium.webdriver.common.by import By
 import time
 

@@ -1,7 +1,7 @@
 from appium import webdriver
 import os
 import unittest
-from gengmei_app.page import canshu
+from page import canshu
 
 apk_path = os.path.dirname(os.path.abspath("."))
 
