@@ -1,0 +1,21 @@
+[
+  "test_homepage_bns.py::Testbuild::test_01",
+  "test_home_diary.py::Testbuild::test_01",
+  "test_home_meigou.py::Testbuild::test_01",
+  "test_home_refresh.py::Testbuild::test_01",
+  "test_home_pv.py::Testbuild::test_01",
+  "test_home_second_homepv.py::Testbuild::test_01",
+  "test_meigou.py::Testbuild::test_01",
+  "test_meigou_refresh.py::Testbuild3::test_01",
+  "test_meigou_second_meigoupv.py::Testbuild3::test_01",
+  "test_homepage_over.py::Testbuild::test_01",
+  "test_home_open.py::Testbuild::test_01",
+  "test_homepage_search.py::Testbuild::test_01",
+  "test_meigou_listpv.py::Testbuild::test_01",
+  "test_meigou_diary.py::Testbuild3::test_01",
+  "test_meigou_post.py::Testbuild6::test_01",
+  "test_meigou_search_hot.py::Testbuild3::test_01",
+  "test_meigou_hospital.py::Testbuild5::test_01",
+  "test_meigou_content.py::Testbuild::test_01",
+  "test_home_user_post.py::Testbuild::test_01"
+]

@@ -1,0 +1,6 @@
+{
+  "test_home_meigou.py": true,
+  "test_meigou_content.py::Testbuild::test_01": true,
+  "test_meigou_post.py::Testbuild6::test_01": true,
+  "test_meigou_search_hot.py::Testbuild3::test_01": true
+}
